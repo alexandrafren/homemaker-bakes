@@ -1,13 +1,12 @@
 import React from 'react';
-import profile from './profile.jpeg';
 import './App.css';
+import Home from './containers/Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Homemaker Bakes</p>
-        <img src={profile} className="App-logo" alt="logo" />
+      <Home />
       </header>
     </div>
   );
